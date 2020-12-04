@@ -1,0 +1,27 @@
+/* Show boxes */
+* {
+  border: 1px solid green;
+}
+
+/* Reset */
+body {
+  margin: 0;
+}
+
+/* Setup navbar */
+
+.navbar {
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-left {
+  width: 33vw;
+}
+.navbar-searchbar {
+  width: 33vw;
+}
+.navbar-right {
+  width: 33vw;
+}
