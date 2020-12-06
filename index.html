@@ -3,14 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Youtube Navbar style</title>
   </head>
   <body>
     <nav class="navbar">
-      <div class="navbar-left"></div>
-      <div class="navbar-searchbar"></div>
-      <div class="navbar-right"></div>
+      <div class="navbar-left">
+        <i class="fa icon fa-bars navbar-left-menu-icon"></i>
+        <img
+          src="/images/youtube-logo.png"
+          alt="logo"
+          class="navbar-left-logo-icon"
+        />
+      </div>
+      <div class="navbar-searchbar-container">
+        <!-- The form -->
+        <form class="navbar-searchbar">
+          <input type="text" placeholder="Search.." name="search" />
+          <button type="submit"><i class="fa icon fa-search"></i></button>
+        </form>
+      </div>
+      <div class="navbar-right">
+        <button type="submit"><i class="fa icon fa-video-camera"></i></button>
+        <button><i class="fa icon fa-ellipsis-h"></i></button>
+        <button><i class="fa icon fa-bell"></i></button>
+        <button><i class="fa icon fa-user-circle-o"></i></button>
+      </div>
     </nav>
   </body>
 </html>
